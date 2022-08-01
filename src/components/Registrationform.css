@@ -1,0 +1,49 @@
+.registrationform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.formcontainer {
+  background-color: gray;
+  padding: 50px;
+  border-radius: 20px;
+  position: relative;
+}
+.backgroundform {
+  display: flex;
+  flex-direction: column;
+}
+.backgroundform h2 {
+  align-self: center;
+  margin-bottom: 35px;
+  color: white;
+}
+.backgroundform input {
+  width: 280px;
+  padding: 5px 15px;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 25px;
+}
+.backgroundform button {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 19px;
+  cursor: pointer;
+}
+.linkabout {
+  position: absolute;
+  top: 76%;
+  left: 55%;
+}
+.linkabout Link {
+  text-decoration: none;
+  color: red;
+}
